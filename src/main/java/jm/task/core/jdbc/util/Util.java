@@ -1,6 +1,4 @@
 package jm.task.core.jdbc.util;
-
-import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 
 public class Util {

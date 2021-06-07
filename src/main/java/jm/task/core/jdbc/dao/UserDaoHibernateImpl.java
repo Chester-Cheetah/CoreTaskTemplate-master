@@ -40,6 +40,7 @@ public class UserDaoHibernateImpl implements UserDao {
         User user = new User(name, lastName, age);
         execute(session -> {
             session.save(user);
+            System.out.printf("User с именем %s добавлен в базу данных\n", name);
             return null;
         });
     }
